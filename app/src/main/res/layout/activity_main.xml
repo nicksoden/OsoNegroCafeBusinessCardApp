@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/osonegrologo"
+        android:layout_weight="1"
+        android:paddingBottom ="10dp"
+        android:paddingTop ="10dp"/>
+    <TextView
+        android:text="Mon – Sat: 7AM – 6PM\nSunday: 8AM – 4PM"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="#8beef5"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal"
+        android:layout_weight="2">
+
+        <TextView
+            android:text="Oso Negro Cafe\n604 Ward Street\nNelson, BC, Canada"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:background="#ffaaff"
+            />
+
+        <TextView
+            android:text="Mon – Sat: 7AM – 6PM\nSunday: 8AM – 4PM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:background="#aa99ff"/>
+
+    </LinearLayout>
+
+</LinearLayout>
