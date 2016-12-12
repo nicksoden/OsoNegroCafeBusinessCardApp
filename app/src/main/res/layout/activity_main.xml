@@ -3,50 +3,51 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    android:background="#f4fdff">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:src="@drawable/osonegrologo"
-        android:layout_weight="1"
-        android:paddingBottom ="10dp"
-        android:paddingTop ="10dp"/>
-    <TextView
-        android:text="Mon – Sat: 7AM – 6PM\nSunday: 8AM – 4PM"
+        android:layout_weight="2.5"
+        android:paddingBottom ="20dp"
+        android:paddingTop ="30dp"/>
+
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
-        android:gravity="center"
-        android:textSize="24sp"
-        android:background="#8beef5"/>
+        android:src="@drawable/osonegro"
+        android:layout_weight="2.5"
+        android:layout_marginTop = "10dp"
+        android:scaleType ="centerCrop"
 
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation = "horizontal"
-        android:layout_weight="2">
+        android:layout_weight="1">
 
         <TextView
-            android:text="Oso Negro Cafe\n604 Ward Street\nNelson, BC, Canada"
+            android:text="OSO NEGRO CAFE\n604 Ward Street\nNelson, BC, Canada\n1 (250) 352 - 7661"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="15sp"
             android:gravity="center"
-            android:background="#ffaaff"
+            android:textColor="#393030"
             />
 
         <TextView
-            android:text="Mon – Sat: 7AM – 6PM\nSunday: 8AM – 4PM"
+            android:text="Mon – Sat: 7AM – 6PM\nSunday: 8AM – 4PM\n Stat Holidays: 8am-4pm\nClosed on:\nDec 25-26 and Jan. 1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:textSize="15sp"
-            android:background="#aa99ff"/>
+            android:textColor="#393030"/>
 
     </LinearLayout>
 
